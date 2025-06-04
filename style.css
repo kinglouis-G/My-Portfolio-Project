@@ -3,9 +3,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     
 }
+#home {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 250px;
+    text-decoration: none;
+    font-weight: 500;
+}
+#home :hover {
+    color: blue;
+}
+#home :visited {
+    color: blueviolet;
+}
 #navbar {
+    position: absolute;
+    margin-left: 1000px;
     background-color: white;
-    padding: 20px 40px;
+    padding: 20px 10px;
     
 }
 
@@ -25,7 +40,7 @@ body {
     color: blue;
 }
 #link1 :active {
-    color: green;
+    color: red;
 }
 #link1 :visited {
     color: blueviolet;
@@ -35,7 +50,7 @@ body {
     border-radius: 150px;
     width: 243px;
     height: 243px;
-    margin-left: 770px;
+    margin-left: 800px;
 }
 .container {
     margin-left: 150px;
@@ -81,7 +96,6 @@ ul, li {
     margin-right: 50px;
 }
 .tbl {
-    width: 12vw;
     border-left: 2px solid grey;
     padding-left: 25px;
 }
@@ -110,4 +124,68 @@ ul, li {
     padding: 100px;
     gap: 10px;
     margin-right: 300px;
+}
+.feat-img {
+    width: 246px;
+    height: 184px;
+}
+.feat-h2 {
+   position: absolute;
+   margin-top: -190px;
+   margin-left: 300px;
+}
+.year {
+    position: absolute;
+    margin-top: 67px;
+    margin-left: 51px;
+    color: #edf7fa;
+    background-color: #142850;
+    border-radius: 16px;
+}
+.dash {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -120px;
+    color: #8695a4;
+}
+.feat-p {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -80px;
+    width: 420px;
+}
+.container2 {
+    margin-left: 100px;
+}
+footer {
+    margin-left: 300px;
+    justify-content: center;
+    position: absolute;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.socials {
+    width: 40px;
+    height: 45px;
+    border-left: 50px;
+    
+}
+.socials1 {
+    width: 40px;
+    height: 40px;
+    border-left: 60px;
+}
+.socials2 {
+    width: 30px;
+    height: 30px;
+    border-left: 60px;
+}
+.footer-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
 }
