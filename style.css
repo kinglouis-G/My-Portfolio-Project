@@ -30,3 +30,84 @@ body {
 #link1 :visited {
     color: blueviolet;
 }
+#profile-pic {
+    position: absolute;
+    border-radius: 150px;
+    width: 243px;
+    height: 243px;
+    margin-left: 770px;
+}
+.container {
+    margin-left: 150px;
+    padding-right: 228px;
+}
+#h1-id {
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#p1 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 100px;
+    height: 66;
+    width: 368px;
+}
+#resume {
+    color: #edf7fa;
+    border-style: none;
+    margin-left: 100px;
+    background-color: #FF6464;
+}
+ul, li {
+    display: flex;
+    flex-direction: row;
+    gap: 80%;
+}
+#topp1, #topp2 {
+    width: 50%;
+    font-size: medium;
+    height: 295px;
+    width: 418px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 30px;
+    text-align: justify;
+}
+.p2 {
+    padding-right: 50px;
+    margin-right: 50px;
+}
+.tbl {
+    width: 12vw;
+    border-left: 2px solid grey;
+    padding-left: 25px;
+}
+.tdi {
+    padding-right: 25px;
+}
+.topview {
+    margin-top: -100px;
+}
+#post {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+#view {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 900px;
+}
+
+.topp {
+    display: flex;
+    background-color: #edf7fa;
+    margin-top: 100px;
+    width: 1000px;
+    padding: 100px;
+    gap: 10px;
+    margin-right: 300px;
+}
